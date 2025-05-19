@@ -1,6 +1,6 @@
 # Word Rotator's Distance with Subspace Optimal Transport
 
-このプロジェクトは、異なるサイズの特徴量を対象としたGPU並列化可能な部分空間最適輸送手法と、Word Rotator's Distance（WRD）を組み合わせた類似度計算の試みです。
+このプロジェクトは、Word Rotator's Distance（WRD）と、異なるサイズの特徴量を対象としたGPU並列化可能な部分空間最適輸送手法を組み合わせた類似度計算の試みです。
 
 ## 背景
 
@@ -21,8 +21,8 @@
 
 ## 参考論文
 
-- 黄健明, 笠井裕之. "異なるサイズの特徴量を対象としたGPU並列化可能な部分空間最適輸送手法の検討." 2023年度人工知能学会全国大会論文集.  
-  [https://doi.org/10.11517/pjsai.JSAI2023.0_2T4GS504](https://doi.org/10.11517/pjsai.JSAI2023.0_2T4GS504)
-
 - Yokoi, Sho, et al. "Word Rotator's Distance." Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020.  
   [https://doi.org/10.18653/v1/2020.emnlp-main.236](https://doi.org/10.18653/v1/2020.emnlp-main.236)
+
+- 黄健明, 笠井裕之. "異なるサイズの特徴量を対象としたGPU並列化可能な部分空間最適輸送手法の検討." 2023年度人工知能学会全国大会論文集.  
+  [https://doi.org/10.11517/pjsai.JSAI2023.0_2T4GS504](https://doi.org/10.11517/pjsai.JSAI2023.0_2T4GS504)
