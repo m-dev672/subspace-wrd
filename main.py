@@ -66,7 +66,7 @@ class subspace_wrd:
 
         t = ot.emd(a, b, c)
 
-        return t.T @ X
+        return np.dot(t.T, X)
 
     def run(self):
         fixed_s_vecs = list(map(self.get_fixed_s_vecs, self.s_vecs))
